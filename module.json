@@ -7,8 +7,8 @@
   "systems": ["dnd5e"],
   "styles": [],
   "scripts": ["rmeweaponproperties.js"],
-  "manifest": "https://github.com/piercedejong/RMEWeaponProperties/blob/master/module.json",
-  "download": "https://github.com/piercedejong/RMEWeaponProperties/releases/download/Release/RMEWeaponProperties.zip",
+  "manifest": "https://raw.githubusercontent.com/piercedejong/RMEWeaponProperties/master/module.json",
+  "download": "https://github.com/piercedejong/RMEWeaponProperties/archive/main.zip",
   "minimumCoreVersion": "0.7.0",
   "compatibleCoreVersion": "0.9.1"
 }
