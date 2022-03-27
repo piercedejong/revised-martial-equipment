@@ -1,0 +1,14 @@
+{
+  "name": "rmeweaponproperties",
+  "title": "RME Weapon Properties",
+  "description": "Adds RME new weapon properties",
+  "version": "0.2",
+  "author": "Nalgene",
+  "systems": ["dnd5e"],
+  "styles": [],
+  "scripts": ["rmeweaponproperties.js"],
+  "manifest": "https://raw.githubusercontent.com/piercedejong/RME-Weapon-Properties/main/module.json",
+  "download": "https://github.com/piercedejong/RME-Weapon-Properties/archive/main.zip",
+  "minimumCoreVersion": "0.7.0",
+  "compatibleCoreVersion": "0.9.1"
+}
