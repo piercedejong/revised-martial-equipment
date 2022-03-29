@@ -1,14 +1,20 @@
 {
-  "name": "rmeweaponproperties",
-  "title": "RMEWeaponProperties",
-  "description": "Adds RME new weapon properties",
+  "name": "revised-martial-equipment",
+  "title": "Revised Martial Equipment",
+  "description": "Adds RME to DnD5e",
   "version": "0.1",
   "author": "piercedejong",
   "systems": ["dnd5e"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+  },
   "styles": [],
-  "scripts": ["rmeweaponproperties.js"],
-  "manifest": "https://raw.githubusercontent.com/piercedejong/RMEWeaponProperties/master/module.json",
-  "download": "https://github.com/piercedejong/RMEWeaponProperties/archive/master.zip",
-  "minimumCoreVersion": "0.7.0",
-  "compatibleCoreVersion": "0.9.1"
+  "scripts": ["rmesystem.js"],
+  "manifest": "https://raw.githubusercontent.com/piercedejong/revised-martial-equipment/master/module.json",
+  "download": "https://github.com/piercedejong/revised-martial-equipment/archive/master.zip",
+  "minimumCoreVersion": "0.9.0",
+  "compatibleCoreVersion": "0.9.5"
 }
