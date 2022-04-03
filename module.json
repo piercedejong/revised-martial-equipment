@@ -1,19 +1,42 @@
 {
   "name": "revised-martial-equipment",
-  "title": "Revised Martial Equipment",
+  "title": "Revised Martial Equipment for D&D5e",
   "description": "Adds RME to DnD5e",
   "version": "0.1",
-  "author": "piercedejong",
+  "author": "pierced",
   "systems": ["dnd5e"],
-  "languages": [
+  "packs": [
     {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json"
-  },
+        "name": "items",
+        "label": "Revised Martial Equipment",
+        "system": "dnd5e",
+        "path": "./packs/items.db",
+        "entity": "Item",
+        "type": "Item"
+    }
+  ],
+  "esmodules": [
+      "./setup.js",
+      "./scripts/hooks/render-item-5e-sheet.mjs"
+  ],
+  "languages": [
+      {
+        "lang": "en",
+        "name": "English",
+        "path": "./lang/en.json"
+      }
+  ],
+  "dependencies": [
+      {
+          "name": "mre-dnd5e",
+          "type": "module",
+          "versionMin": "3.2.10"
+      }
+  ],
   "styles": [],
-  "scripts": ["rmesystem.js"],
+
   "manifest": "https://raw.githubusercontent.com/piercedejong/revised-martial-equipment/master/module.json",
   "download": "https://github.com/piercedejong/revised-martial-equipment/archive/master.zip",
-  "minimumCoreVersion": "0.9.0"
+  "minimumCoreVersion": "0.8.9",
+  "compatibleCoreVersion": "9"
 }
