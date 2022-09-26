@@ -32,15 +32,7 @@
     {
       "name": "nalgenes",
       "flags": {}
-    }.
-    {
-      "name": "Commander Fayne",
-      "flags": {}
-  },
-  {
-    "name": "Gibby",
-    "flags": {}
-  }
+    }
   ],
   "relationships": {
     "systems": [
